@@ -57,8 +57,8 @@ public class CustomInputField extends TextInputLayout {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if(editText.getError() != null){
-                    editText.setError(null);
+                if(getError() != null){
+                    setError(null);
                 }
             }
 

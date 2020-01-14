@@ -16,7 +16,7 @@ public interface ContactDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     long insertContact(ContactEntity contactEntity);
 
-    @Query("SELECT * FROM contact ORDER BY name")
+    @Query("SELECT * FROM contact ORDER BY name COLLATE NOCASE ASC")
     List<ContactEntity> getOrderedContacts();
 
 }
