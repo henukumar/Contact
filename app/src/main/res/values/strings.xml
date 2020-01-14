@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Contact</string>
+
+    <string name="title_btn_add">Add</string>
+
+    <string name="title_menu_show_contact_list">Show Contacts</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_number">Contact Number</string>
+    <string name="hint_email">Email</string>
+
+    <string name="msg_contact_added">Contact added successfully</string>
+    <string name="msg_some_error_occured">Something went wrong</string>
+</resources>

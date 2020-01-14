@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activity.MainActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:id="@+id/toolbar"
+                app:title="@string/app_name"
+                app:titleTextColor="@android:color/white"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <com.kalher.contact.custom.CustomInputField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_name"
+                android:hint="@string/hint_name"
+                app:input_type="name"
+                style="@style/style_custom_input_field"
+                android:layout_alignParentTop="true"/>
+
+            <com.kalher.contact.custom.CustomInputField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_age"
+                android:hint="@string/hint_age"
+                app:input_type="age"
+                style="@style/style_custom_input_field"
+                android:layout_below="@id/et_name"/>
+
+            <com.kalher.contact.custom.CustomInputField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_number"
+                android:hint="@string/hint_number"
+                app:input_type="number"
+                style="@style/style_custom_input_field"
+                android:layout_below="@id/et_age"/>
+
+            <com.kalher.contact.custom.CustomInputField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_email"
+                android:hint="@string/hint_email"
+                app:input_type="email"
+                style="@style/style_custom_input_field"
+                android:layout_below="@id/et_number"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_button_height"
+                android:id="@+id/btn_add"
+                android:text="@string/title_btn_add"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_contact_list_item">
+
+        <TextView
+            android:layout_width="@dimen/height_contact_list_icon"
+            android:layout_height="@dimen/height_contact_list_icon"
+            android:id="@+id/tv_contact_icon"
+            android:textSize="@dimen/textsize_contact_item_icon"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/margin_left_contact_item_icon"
+            android:layout_marginRight="@dimen/margin_right_contact_item_icon"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/tv_contact_icon"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_contact_name"
+                android:text="Abhishek Sharma"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_contact_number"
+                android:text="9876543210"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

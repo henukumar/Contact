@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Custom Input Field-->
+    <dimen name="custom_input_left_margin">10dp</dimen>
+    <dimen name="custom_input_right_margin">10dp</dimen>
+    <dimen name="custom_input_top_margin">10dp</dimen>
+    <dimen name="custom_input_bottom_margin">10dp</dimen>
+
+    <dimen name="add_button_height">50dp</dimen>
+
+    <dimen name="height_contact_list_item">80dp</dimen>
+    <dimen name="height_contact_list_icon">50dp</dimen>
+    <dimen name="textsize_contact_item_icon">30sp</dimen>
+    <dimen name="margin_left_contact_item_icon">10dp</dimen>
+    <dimen name="margin_right_contact_item_icon">10dp</dimen>
+
+    <dimen name="height_contact_bottomsheet_appbar">300dp</dimen>
+    <dimen name="height_contact_user_icon">100dp</dimen>
+    <dimen name="width_contact_user_icon">100dp</dimen>
+
+    <dimen name="margin_left_contact_name">20dp</dimen>
+    <dimen name="margin_bottom_contact_name">20dp</dimen>
+    <dimen name="text_size_contact_name">30sp</dimen>
+
+    <dimen name="margin_contact_detail_card">10dp</dimen>
+    <dimen name="contact_detail_min_height">500dp</dimen>
+
+    <dimen name="textsize_contact_info_label">16sp</dimen>
+    <dimen name="textsize_contact_info_value">18sp</dimen>
+    <dimen name="margin_left_contact_info">20dp</dimen>
+    <dimen name="margin_right_contact_info">20dp</dimen>
+    <dimen name="margin_top_contact_info">10dp</dimen>
+    <dimen name="padding_card_contact_info">10dp</dimen>
+    <dimen name="margin_bottom_contact_info">10dp</dimen>
+    <dimen name="margin_vertical_contact_info">5dp</dimen>
+</resources>

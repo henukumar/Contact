@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <merge xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_label"
+            android:textSize="@dimen/textsize_contact_info_label"
+            android:textColor="@color/colorLabel"
+            style="@style/style_contact_info"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_value"
+            android:textSize="@dimen/textsize_contact_info_value"
+            android:textColor="@color/colorDefaultText"
+            style="@style/style_contact_info_value"/>
+
+    </merge>
+</layout>

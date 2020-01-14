@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="style_custom_input_field">
+        <item name="android:layout_marginLeft">@dimen/custom_input_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/custom_input_right_margin</item>
+        <item name="android:layout_marginTop">@dimen/custom_input_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/custom_input_bottom_margin</item>
+    </style>
+
+    <style name="style_contact_info">
+        <item name="android:layout_marginLeft">@dimen/margin_left_contact_info</item>
+        <item name="android:layout_marginRight">@dimen/margin_right_contact_info</item>
+    </style>
+
+    <style name="style_contact_info_value">
+        <item name="android:layout_marginLeft">@dimen/margin_left_contact_info</item>
+        <item name="android:layout_marginRight">@dimen/margin_right_contact_info</item>
+    </style>
+
+</resources>
